@@ -15,4 +15,5 @@ $ ng serve
 ```
 $ npm i -g angular-cli-ghpages
 $ ng build --prod --base-href "/REPOSITORY_NAME/"
+$ angular-cli-ghpages
 ```
