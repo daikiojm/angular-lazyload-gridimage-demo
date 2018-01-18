@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+  range(n): number[] {
+    const arr = [];
+    for (let i = 0; i < n; ++i) {
+      arr.push(i);
+    }
+    return arr;
+  }
 }
